@@ -1,51 +1,59 @@
-*{
-  box-sizing; border-box;
+* {
+    box-sizing: border-box;
+    font-family;
+    padding: 0;
 }
-h1{
-  font-size: 27px;
-  font-family: serif;
-  text-align: center;
-  color: black;
-  margin-bottom: 30px;
+
+body {
+
 }
-p{
-  padding: 15px 5px 0px 5px;
-  font-family: sans-serif;
-  font-size: 16px;
-  position: relative;
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 60px;
 }
-.section{
-  background-color: grey;
-  border: 2px solid black;
-  margin-top: 20px;
-  margin-right: 20px;
-  padding: 3px;
-  text-align: justify;
-  position: relative;
+
+section {
+    border: 3px solid black;
+    background-color: grey;
+    margin: 10px;
 }
-span{
-  font-size: 20px;
-	width: 150px;
-	border: 1px solid black;
-	font-weight: bold;
-	text-align: center;
-	float: right; top :0; right: 0; margin: 0;
-	position: absolute;
+
+section>h2 {
+    float: right;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    margin: 0;
+    width: 230px;
+    text-align: center;
+    font-style: Times;
+    font-size: 24px;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 10px;
 }
-#nr1 {
-	background-color: #FF9999;
-	color: rgb(0, 0, 0);
+
+section.ChickenSection>h2 {
+    background-color: pink;
 }
-#nr2 {
-	background-color: #CC0000;
-	color: white;
+
+section.BeefSection>h2 {
+    background-color: maroon;
+    color: white;
 }
-#nr3 {
-	background-color: #FFFF66;
-	color: black;
+
+section.SushiSection>h2 {
+    background-color: yellow;
 }
+
+section>p {
+    padding: 40px 15px 15px 15px;
+}
+
 .row {
-	width: 100%;
+    width: 100%;
 }
 
 @media (min-width: 992px) {
